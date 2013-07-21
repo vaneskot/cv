@@ -1,0 +1,54 @@
+%%%%% <======== THIS IS FOR RUSSIAN RESUME %%%%%%%%%
+\documentclass[11pt,a4paper]{moderncv}
+\usepackage[T2A]{fontenc}
+\usepackage[english, russian] {babel}
+\usepackage[utf8]{inputenc}
+%%%%% <======== THIS IS FOR RUSSIAN RESUME %%%%%%%%%
+
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+\renewcommand{\rmdefault}{cmr}
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+
+% personal data
+\firstname{Иван}
+\familyname{Котенков}
+\mobile{+7~(905)~790~2816}
+\email{ivan.kotenkov@gmail.com}
+
+\begin{document}
+\makecvtitle
+
+\section{Образование}
+\cventry{2005 -- 2012}{Специалист}{Московский Государственный Университет им. Ломоносова}
+  {\newline\textit{Факультет}: механико-математический}
+  {\newline\textit{Специальность}: прикладная математика}{}
+
+\section{Опыт работы}
+\subsection{Работа в офисе}
+\cventry{Авг 2010 -- н.в.}{Инженер 1 кат.}{\textbf{ОАО НПО ЛЭМЗ}}{Москва}{}{Разработка программного обеспечения для управления воздушным движением.\newline{}%
+Обязанности:
+\begin{itemize}%
+\item Разработка системы поиска пересечений 3d объектов.
+\item Разработка системы визуализации 3d объектов.
+\item Реализация сопряжения между серверами по протоколу Asterix.
+\end{itemize}}
+\cventry{Июль 2008 -- Фев 2009}{Разработчик C++}{\textbf{Рок Флоу Динамикс}}{Москва}{}{Модификация и поддержка сервера лицензий. Работа с USB-ключом.}
+\subsection{Удаленная работа}
+\cventry{Июль 2012 -- н.в.}{Разработчик C++}{\textbf{SimplyCeph}}{}{}{Обработка 3d моделей (stl).}
+
+\section{Навыки}
+\cvlistitem{\emph{Основной язык программирования}: C++}
+\cvlistitem{\textit{Языки программирования}: C++, C, Python}
+\cvlistitem{\textit{Библиотеки}: STL, Qt, OpenGL}
+\cvlistitem{\textit{Остальное}: linux, vim, bash, svn, tex}
+
+\section{Языки}
+\cvitemwithcomment{Русский}{Родной}{}
+\cvitemwithcomment{Английский}{Продвинутый}{}
+
+\renewcommand{\listitemsymbol}{-~}
+
+\end{document}

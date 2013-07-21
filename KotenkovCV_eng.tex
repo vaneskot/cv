@@ -1,0 +1,50 @@
+%%%%% <======== THIS IS FOR RUSSIAN RESUME %%%%%%%%%
+\documentclass[11pt,a4paper]{moderncv}
+\usepackage[T2A]{fontenc}
+\usepackage[english, russian] {babel}
+\usepackage[utf8]{inputenc}
+%%%%% <======== THIS IS FOR RUSSIAN RESUME %%%%%%%%%
+
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+\renewcommand{\rmdefault}{cmr}
+\usepackage[scale=0.75]{geometry}
+
+% personal data
+\firstname{Ivan}
+\familyname{Kotenkov}
+\mobile{+7~(905)~790~2816}
+\email{ivan.kotenkov@gmail.com}
+
+\begin{document}
+\makecvtitle
+
+\section{Education}
+\cventry{2005 -- 2012}{Specialist degree}{Moscow State University}
+  {\newline\textit{Department}: mechanics and mathematics}
+  {\newline\textit{Specialization}: applied mathematics}{}
+
+\section{Experience}
+\cventry{Aug 2010 -- present}{Engineer}{\textbf{Lianozovo Electromechanical Plant}}{Moscow}{}{Development of air traffic control systems.\newline{}%
+Achievments:
+\begin{itemize}%
+\item Developed internal library for 3d object intersection detection.
+\item Developed program for 3d object visualization.
+\item Built connection between two systems using ASTERIX protocol.
+\end{itemize}}
+\cventry{Jul 2012 -- Feb 2013}{Remote C++ developer}{\textbf{SimplyCeph}}{}{}{Wrote a program for modifying stl models - automated removal of unnecessary parts, hole searching.}
+\cventry{Jul 2008 -- Feb 2009}{C++ developer}{\textbf{Rock Flow Dynamics}}{Moscow}{}{Fixed bugs and added improvements to existing key server.}
+
+\section{Technical skills}
+\cvlistitem{\emph{Main programming language}: C++}
+\cvlistitem{\textit{Other programming languages}: C, Python}
+\cvlistitem{\textit{Libraries}: STL, Qt, Boost Graph, OpenGL}
+\cvlistitem{\textit{Tools}: linux, vim, bash, svn, tex}
+
+\section{Languages}
+\cvitemwithcomment{Russian}{Native}{}
+\cvitemwithcomment{English}{Upper intermediate}{}
+
+\renewcommand{\listitemsymbol}{-~}
+
+\end{document}
