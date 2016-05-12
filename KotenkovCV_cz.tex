@@ -1,0 +1,62 @@
+\documentclass[11pt,a4paper]{moderncv}
+\usepackage[T2A]{fontenc}
+\usepackage[czech] {babel}
+\usepackage[utf8]{inputenc}
+
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+\renewcommand{\rmdefault}{cmr}
+\usepackage[scale=0.75]{geometry}
+
+% personal data
+\firstname{Ivan}
+\familyname{Kotenkov}
+\mobile{+420777001876}
+\email{ivan.kotenkov@gmail.com}
+
+\begin{document}
+\makecvtitle
+
+\section{Vzdělání}
+\cventry{2005 -- 2012}{Specialista}{Moskévská statní univerzita}
+  {\newline\textit{Fakulta}: Mechaniko-matematická}
+  {\newline\textit{Studijní program}: Matematika}
+  {\textit{Diplomová práce}: Functions interpolation based on monotonicity property}
+
+\section{Pracovní zkušenosti}
+\cventry{Sep 2014 -- present}{Senior Programátor}{\textbf{Yandex}}{Moskva}{}{Vývoj jádra renderování webového prohlížče Yandex.Browser.}
+\cventry{Jul 2013 -- Aug 2014}{Programátor}{\textbf{Yandex}}{Moskva}{}{Vývoj jádra renderování webového prohlížče Yandex.Browser.
+\begin{itemize}%
+\item Účast v vývoju a architektuře skoro všech užitných vlastností, které se tykají jádra renderování.
+\item Upstream patchů v Chromium.
+\item Recenze kódu.
+\item Vedení přijímacích pohovorů.
+\end{itemize}
+}
+\cventry{Aug 2010 -- Jun 2013}{Programátor}{\textbf{Lianozovská Elektromechanická Tovarna}}{Moskva}{}{Vývoj systémů řízení letového provozu.
+\begin{itemize}%
+\item Vývoj knihovny pro hledaní průniku trojrozměrných objektů.
+\item Vývoj systému vizualizace trojrozměrných objektů.
+\item Vývoj spojení mezi servery s využitím protokolu ASTERIX.
+\end{itemize}
+}
+
+\cventry{Jul 2012 -- Feb 2013}{Programátor}{\textbf{SimplyCeph}}{Vzdálená práce}{}{Vývoj programu pro modifikaci STL(STereoLithography) modelů: automatické odstranění zbytečních částí, hledaní dír.}
+\cventry{Jul 2008 -- Feb 2009}{Programátor}{\textbf{Rock Flow Dynamics}}{Moskva}{}{Oprava programátorských chyb a zlepšení serveru klíčů.}
+
+\section{Technologie}
+\cvlistitem{\textit{Programovací jazyky}: C++, C, Python}
+\cvlistitem{\textit{Knihovny}: STL, QT}
+\cvlistitem{\textit{Operační systémy}: linux, mac os}
+\cvlistitem{\textit{Kontrola verzí}: git, svn}
+\cvlistitem{\textit{Ostatní}: gdb, lldb, vim, bash, tex}
+
+\section{Jazyky}
+\cvitemwithcomment{Ruština}{Mateřský jazyk}{}
+\cvitemwithcomment{Angličtina}{Dobře}{}
+\cvitemwithcomment{Čeština}{B2}{}
+
+\renewcommand{\listitemsymbol}{-~}
+
+\end{document}
+
